@@ -84,18 +84,18 @@ SUBSTITUTE(
         <locationX>219</locationX>
         <locationY>505</locationY>
         <inputAssignments>
-            <field>Payload__c</field>
+            <field>copado__Payload__c</field>
             <value>
                 <elementReference>payload</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
-            <field>Topic_Uri__c</field>
+            <field>copado__Topic_Uri__c</field>
             <value>
                 <elementReference>topicUrl</elementReference>
             </value>
         </inputAssignments>
-        <object>Event__e</object>
+        <object>copado__Event__e</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordCreates>
     <recordUpdates>
@@ -115,18 +115,18 @@ SUBSTITUTE(
             </value>
         </filters>
         <inputAssignments>
-            <field>Progress_Status__c</field>
+            <field>copado__Progress_Status__c</field>
             <value>
                 <stringValue>Success</stringValue>
             </value>
         </inputAssignments>
         <inputAssignments>
-            <field>Status__c</field>
+            <field>copado__Status__c</field>
             <value>
                 <stringValue>Success</stringValue>
             </value>
         </inputAssignments>
-        <object>Result__c</object>
+        <object>copado__Result__c</object>
     </recordUpdates>
     <recordUpdates>
         <description>Emulating a Test Extension, we update the test&apos;s result after a &quot;evaluated&quot; criteria, which in this emulation doesn&apos;t take place.</description>
@@ -146,18 +146,18 @@ SUBSTITUTE(
             </value>
         </filters>
         <inputAssignments>
-            <field>Progress_Status__c</field>
+            <field>copado__Progress_Status__c</field>
             <value>
                 <stringValue>Success</stringValue>
             </value>
         </inputAssignments>
         <inputAssignments>
-            <field>Status__c</field>
+            <field>copado__Status__c</field>
             <value>
                 <stringValue>Success</stringValue>
             </value>
         </inputAssignments>
-        <object>Result__c</object>
+        <object>copado__Result__c</object>
     </recordUpdates>
     <start>
         <locationX>50</locationX>
