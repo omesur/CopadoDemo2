@@ -5,7 +5,7 @@
       "default": true
     }
   ],
-  "name": "Mock MC Extension",
+  "name": "Sample Copado Extension",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "54.0"

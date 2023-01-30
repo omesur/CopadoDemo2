@@ -1,14 +1,16 @@
-# MC Mock Extension
+# Sample Copado Extension
 
 ### 1. What is this for?
 
-The purpose is to provide a sample skeleton for building quality tools.
+This is a sample extension created with Copado to package and distribute a Copado Function.
 
 ### 2. Setup
-- a) Make sure your user has the following permission sets assigned: Copado User. Copado Job Engine, Quality Gate
+
+- a) Make sure your user has the following permission sets assigned: Copado User, Copado Job Engine, Copado Functions Admin
 - b) Make sure your user has the Copado Admin license.
 - c) Push the code and components in this repository to your Org.
-- d) Create the picklist value "MC Mock Tool" in ExtensionConfiguration__c.ExtensionTool__c picklist, and also in "Copado Test Tool" global picklist value set. The first will be needed as the Extension Configuration is packaged with the value already set.
-- e) Go to Copado Extension Tab, select MockMCExtensionBundle from dropdown. 
-- f) Click on Generate extension records
-- e) You're ready to test this tool! You can create a test record manually, Quality Gate rules, extension configuration, etc.
+- d) Go to Copado Extension Tab, select SampleExtensionBundle from dropdown.
+- e) Click on Generate extension records
+- f) Once your records have been generated, click on the "Hello World" Function to open the Function record
+- g) On the Function record page, click Execute Function -> then Execute in the open modal
+- h) Finally, click View result record in the next screen.
